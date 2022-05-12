@@ -2,5 +2,5 @@ git status: Verifica o status do repositório de trabalho e se houve ou não alg
 git add: Adiciona um arquivo ao Git. (Ao usar git add * ou . será adicionado todos os novos arquivos ao Git.)
 git commit -m "texto": Cria o commit do repositório. É importante informar entre "" quais foram as modificações feitas.
 git remote add origin "link": Adiciona o link que direciona ao repositório do Github
-git push origin master: Envia os arquivos para o github.
-git pull origin master: Faz o download dos arquivos no github.
+git push origin main: Envia os arquivos para o github.
+git pull origin main: Faz o download dos arquivos no github.
