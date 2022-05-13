@@ -1,0 +1,63 @@
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+#area-cabecalho{
+    padding: 20px;
+    background-color: #f7b600;
+    text-align: center;
+}
+#area-logo{
+    padding: 15px;
+}
+#area-menu{
+    padding: 15px;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
+    color: white;
+}
+#pg-inicial{
+    width: 920px;
+    margin: 0 auto;
+}
+#link-lateral{
+    width: 240px;
+    background-color: white;
+    float: right;
+}
+.hyperlink{
+    text-decoration: none;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+.corpo-blog{
+    width: 660px;
+    background-color: white;
+    text-align: justify;
+    float: left;
+}
+.leia-mais{
+    background-color: none;
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link{
+    color: white;
+}
+ 
+a:visited{
+    color: white;
+}  
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+}

@@ -1,0 +1,32 @@
+<h1> até <h6> são utilizaços para cabeçalho.
+
+<header> Mantem o conteúdo no topo do site.
+
+<footer> Mantém o conteúdo no rodapé do site.
+
+<a href=""> é utilizado para inserir links.
+
+<a target="_blank"> é utilizado para que o link abra em outra aba.
+
+<p> Adiciona um paragrafo. Possui formatação padrão
+
+<span> Adiciona um paragrafo. Sem formatação padrão.
+
+<img> Adiciona uma imagem.
+
+<ul> Cria uma lista desordenada
+<ol> Cria uma lista ordenada
+	<li> Adiciona um elemento a lista
+
+<div> Auxilia na separação do conteudo no código HTML
+
+<table> Cria uma tabela
+	<caption> Dá um título para a tabela 
+	<thead> Primeiro elemento da tabela, cabeçalho
+		<tr> Adiciona uma linha
+			<th> Adiciona um elemento na linha
+
+	<tbody> Demais elementos da tabela
+		<tr> Adiciona uma linha
+			<td> Adiciona um elemento na linha
+

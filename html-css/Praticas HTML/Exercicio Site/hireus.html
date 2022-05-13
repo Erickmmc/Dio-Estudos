@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+</head>
+
+<body>
+    <header>
+        <a href="sitespacex.html">
+            <img src="C:\Users\TUF Gaming\Desktop\Analise e Dev de Sistemas\Projetos JS\Projeto 1\2 - Aula HTML\Exercicio Site\logo.png"
+                alt="SpaceX Logo">
+        </a> |
+        <a href="TheSpaceship.html">The Spaceships</a> |
+        <a href="hireus.html">Hire Us</a> |
+        <hr>
+
+    </header>
+    <form>
+        <section>
+            <h2>Hire Us Now</h2>
+            <p>Leave a message to request one of our services and we will get back to you as soon as possible.</p>
+            <br>
+    
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required> -
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            
+            <br>
+    
+            <div>
+                <label for="spaceship">Spaceship:</label>
+                <select name="spaceship" id="spaceship">
+                    <option value="falcon_9">Falcon 9</option>
+                    <option value="falcon_heavy">Falcon Heavy</option>
+                </select> | 
+                <label for="services">Type Of Service:</label>
+                <input type="search" name="services" id="services" list="service">
+                        <datalist id="service">
+                            <option value="Serviço de qualidade Ótima"></option>
+                            <option value="Serviço de qualidade Boa"></option>
+                            <option value="Serviço de qualidade Média"></option>
+                            <option value="Serviço de qualidade Ruim"></option>
+                        </datalist>    
+            </div>
+            
+            <br>
+    
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+    
+        </section>
+    </form>
+    
+</body>
+
+</html>
