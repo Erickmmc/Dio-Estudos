@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap</title>
+    <style>
+        .flex-container{
+            display: flex;
+            height: 150px;
+            margin: 20px;
+            padding: 0;
+            list-style: none;
+            max-width: 310px;
+            border: 2px solid red;
+        }
+        .flex-item{
+            background: grey;
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+            line-height: 50px;
+            font-size: 20 px;
+            text-align: center;
+            margin: 5px;
+            min-width: 50px;
+        }
+        .wrap{
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <ul class="flex-container ">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+    </ul>
+    <ul class="flex-container wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+        <li class="flex-item">7</li>
+    </ul>
+</body>
+</html>

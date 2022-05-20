@@ -1,0 +1,16 @@
+ID x Class
+
+São utilizados para categorizar os elementos do HTML,
+para serem estilizados pelo CSS posteriormente.
+
+Os ID só podem ser utilizados apenas UMA vez por código, e é usado para
+algo mais específico.
+
+Já o Class pode ser utilizado várias vezes e é usado para criar uma
+estilização padrão para ser usada em vários momentos.
+
+Um ID é representado pelo # no CSS
+Uma Class é representada pelo . no CSS
+
+<link rel="stylesheet" href="style.css"> Adiciona a folha de estilo CSS
+
